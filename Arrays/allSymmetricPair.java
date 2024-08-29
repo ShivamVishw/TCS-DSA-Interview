@@ -1,36 +1,32 @@
 package Arrays;
 
-import java.util.List;
-
 import java.util.HashMap;
-import java.util.Map;
 
 public class allSymmetricPair {
-    static List<Integer> symmetricPairArr(int arr[][]){
+    static void symmetricPairArr(int arr[][]){
         
-        HashMap<Integer, Integer> countMap = new HashMap<>();
+        HashMap<Integer, Integer> pairMap = new HashMap<Integer,Integer>();
 
 
-        // Step 2: Create lists to separate repeating elements
-        List<Integer> nonRepeating = new ArrayList<>();
+        for(int[] pair: arr){
+            int first = pair[0];
+            int second = pair[1];
 
-        for(Map.Entry<Integer,Integer> entry: countMap.entrySet()){
-            int element = entry.getKey();
-            int count= entry.getValue();
 
-            if(count>1){
-                continue;
-            }else{
-                nonRepeating.add(element);
+            // if second key present in map and ifpresent then is there value equal to first element
+            // pairMap.containsKey(second) getting key  pairMap.get(second)==first  checking if value is equal to first
+            if(pairMap.containsKey(second) && pairMap.get(second)==first){
+                System.out.println("(" + second + ", " + first + ") and (" + first + ", " + second + ")");
+            } else {
+                pairMap.put(first, second);
             }
-        }   
-
-        return nonRepeating;
+        }
+        
     }
     public static void main(String[] args) {
         int arr[][] ={{1, 2}, {2, 1}, {3, 4}, {4, 5}, {5, 4}};
-        System.out.println(symmetricPairArr(arr));
-    }
+        symmetricPairArr(arr);
     }
 }
+
 
