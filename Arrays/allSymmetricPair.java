@@ -1,5 +1,6 @@
 package Arrays;
 
+// Find all symmetric pairs in array
 import java.util.HashMap;
 
 public class allSymmetricPair {

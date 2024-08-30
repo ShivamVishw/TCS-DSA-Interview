@@ -1,5 +1,6 @@
 package Arrays;
 
+// Calculate sum of the elements of the array
 public class sumOfElement {
     static int sumOfElementArr(int []arr){
         

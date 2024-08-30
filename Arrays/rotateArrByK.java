@@ -1,4 +1,6 @@
 package Arrays;
+
+// Rotate array by K elements - Block Swap Algorithm
 import java.util.Arrays;
 public class rotateArrByK {
     static int[] rotateArrByKElement(int[] arr, int k){

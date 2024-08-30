@@ -1,4 +1,6 @@
 package Arrays;
+
+// Remove duplicates from a sorted array
 import java.util.Arrays;
 public class removeDuplicateSorted {
     static int removeDuplicateFrSorted(int []arr){

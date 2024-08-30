@@ -1,5 +1,7 @@
 package Arrays;
 
+
+// Average of all elements in an array
 public class avgAllElement {
     static double avgOfAllElement(int []arr){
         int n=arr.length;

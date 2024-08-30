@@ -1,5 +1,6 @@
 package Arrays;
 
+// Find the largest number in an array
 public class largest {
     static int largestNumb(int []arr){
         int ans= Integer.MIN_VALUE;

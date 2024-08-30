@@ -1,5 +1,6 @@
 package Arrays;
 
+// Maximum product subarray in an array
 public class maximumProductSub {
     static int maximumProduct(int[] arr, int n) {
 		// Write your code here.

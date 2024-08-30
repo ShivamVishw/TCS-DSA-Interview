@@ -1,5 +1,6 @@
 package Arrays;
 
+// Find the median of the given array
 import java.util.Arrays;
 public class medianInArr {
     static double medianOfAllElement(int []arr){

@@ -1,5 +1,6 @@
 package Arrays;
 
+// Second Smallest and Second Largest element in an array
 public class secondLargestSecondSmallest {
     static int secondSmallestNumb(int []arr){
         int ans= Integer.MAX_VALUE;

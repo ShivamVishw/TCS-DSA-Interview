@@ -1,5 +1,7 @@
 package Arrays;
 
+
+// Count frequency of each element in an array
 public class elementFreq {
     static void freqOfElement(int arr[]){
 

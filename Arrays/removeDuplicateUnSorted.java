@@ -1,5 +1,8 @@
 package Arrays;
 
+
+// Remove duplicates from unsorted array
+
 import java.util.ArrayList;
 
 public class removeDuplicateUnSorted {

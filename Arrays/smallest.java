@@ -3,6 +3,9 @@ package Arrays;
 /**
  * smallest
  */
+
+// Find the smallest number in an array
+
 public class smallest {
 
     static int smallestNumb(int []arr){

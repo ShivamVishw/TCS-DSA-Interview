@@ -1,5 +1,6 @@
 package Arrays;
 
+// Reverse a given array
 import java.util.Arrays;
 public class reverseArray {
     static int[] reverseArr(int []arr){
