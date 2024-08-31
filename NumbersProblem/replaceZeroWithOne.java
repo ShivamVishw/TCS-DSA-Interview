@@ -1,6 +1,6 @@
 package NumbersProblem;
 
-// Replace all the 0’s with 1 in a given integer
+// Replace all 0’s with 1 in a given integer
 public class replaceZeroWithOne {
     static char[] replaceZeroWithOneNumb(int num){
         String numb = Integer.toString(num);
@@ -10,7 +10,7 @@ public class replaceZeroWithOne {
             if(arr[i]=='0'){
                 arr[i]='1';
             }
-        }
+        } 
         
         return arr;
     }
