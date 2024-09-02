@@ -14,6 +14,7 @@ public class replaceZeroWithOne {
         
         return arr;
     }
+    
     public static void main(String[] args) {
         System.out.println(replaceZeroWithOneNumb(4030208));
     }
