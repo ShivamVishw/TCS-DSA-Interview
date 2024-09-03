@@ -9,7 +9,7 @@ public class primeFactors {
                 if(checkPrimeNumb(i)){
                     System.out.print(i+" ");
 
-                    if (i != n / i) { // If divisors are not the same, add the pair
+                    if (i != n / i) { // for remaining parts
                         if(checkPrimeNumb(n/i)){
                             System.out.print(n/i+" ");
                         }

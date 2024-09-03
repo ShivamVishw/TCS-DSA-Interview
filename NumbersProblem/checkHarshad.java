@@ -9,6 +9,12 @@ public class checkHarshad {
         int ans =0;
         int temp =num;
 
+        // Edge case: if the number is zero, it's not a Harshad number
+        if (num == 0) {
+            return false;
+        }
+
+
         while(num>0){
             int rem = num%10;
             ans= ans+rem;

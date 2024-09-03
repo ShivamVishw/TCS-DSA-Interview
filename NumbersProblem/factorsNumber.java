@@ -7,7 +7,7 @@ public class factorsNumber {
         for(int i=1; i<=Math.sqrt(n); i++){
             if(n%i==0){
                 System.out.print(i+" ");
-                if (i != n / i) { // If divisors are not the same, add the pair
+                if (i != n / i) { // this will take care of remaining part so no need to traverse till n so time complexity will be sqrt(n) 
                     System.out.print(n/i+" ");
                 }
             }
@@ -15,3 +15,5 @@ public class factorsNumber {
         System.out.println();
     }
 }
+
+// Time Complexity -- Math.sqrt(n)

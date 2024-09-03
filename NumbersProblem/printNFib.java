@@ -14,10 +14,10 @@ public class printNFib {
     }
     public static void main(String[] args) {
         int a=0;
-        int b=0;
+        int b=1;
         System.out.print(a+" ");
         System.out.print(b+" ");
-        printNFibSeries(6, 0, 1);
+        printNFibSeries(6, a, b); // at n it will be (n-2) because at 2 places we have already printed
         System.out.println();
 
     }
