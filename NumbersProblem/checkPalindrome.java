@@ -1,6 +1,6 @@
 package NumbersProblem;
 
-// Check if a number is Palindrome or Not
+// que- Check if a number is Palindrome or Not 
 public class checkPalindrome {
     
     static boolean checkPalindromeNumb(int numb){
